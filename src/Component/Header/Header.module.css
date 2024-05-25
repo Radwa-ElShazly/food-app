@@ -1,0 +1,70 @@
+ .header{
+    position: relative;
+    background-image: url('../../assets/header_img.png');
+     background-size:cover;
+     margin: auto;
+     width: 70vw;
+     height:70vh;
+     background-repeat: no-repeat;
+     border-radius:10px;
+     margin-top:50px;
+     animation: fadeIn 2s;
+}
+.headerContent{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left:6vw;
+   
+}
+
+
+.headerContentP{
+  color: white;
+  font-size:1.2vw;
+}
+
+.headerContentButton{
+  border: none;
+  border-radius: 30px;
+  color: #747474;
+  font-weight: 500;
+  background-color: white;
+  padding: 1vw 2.3vw;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+  .headerContentP{
+    font-size:1.8vw;
+  }
+  .headerContent{
+    max-width: 65%;
+}
+}
+
+@media only screen and (max-width: 767px){
+  .headerContent{
+    max-width: 75%;
+}
+  .headerContentP{
+    font-size:2.6vw;
+  }
+  .headerContentButton{
+
+    padding: 2vw 3vw;
+  }
+  
+}
+@keyframes fadeIn{
+    0%{
+      opacity:0;
+    }
+    100%{
+      opacity:1;
+    }
+  }
+

@@ -1,0 +1,43 @@
+.navButton{
+    background-color: transparent;
+    font-size:16px;
+    color: #49557e;
+    border:1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navButton:hover{
+    background-color: #fff4f2;
+}
+#link{
+    position: relative;
+    background-color: white;
+    color: #49557e;
+    margin:0px 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.active{
+    position: absolute;
+    border-bottom: #49557e 3px solid;
+}
+.navbarSearch{
+position: relative;
+padding-top:15px;
+padding-right:10px;
+}
+.dot{
+    position: absolute;
+    min-width:10px;
+    min-height:10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: 12px;
+    right:10px;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.foodDisplayh2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+    margin:50px 0px 30px;
+}
+
+.line{
+    position: absolute;
+    content: " ";
+    width:90%;
+    height:1.2px;
+    background-color: rgb(134, 134, 135);
+    top:-40px;
+    left:50%;
+    transform:translate(-50%);
+}

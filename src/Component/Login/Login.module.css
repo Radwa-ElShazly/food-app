@@ -1,0 +1,30 @@
+.body{
+    width:90%;
+    margin:auto;
+
+}
+.btn{
+    width:100%;
+    background-color:tomato;
+    border:none;
+    border-radius:5px;
+    padding:7px;
+    margin-bottom:20px;
+    color: #fff4f2;
+}
+.bodyP{
+    font-size:14px;
+    color:#49557e;
+}
+.bodyLogin{
+    font-size:14px;
+    color:#49557e;
+    margin:20px  30px 30px
+}
+.link{
+    color: tomato;
+    cursor: pointer;
+}
+.link:hover{
+    text-decoration: underline; 
+}
