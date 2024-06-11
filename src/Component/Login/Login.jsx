@@ -4,7 +4,12 @@ export default function Login() {
   return  <>
 <div className="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog">
+
+    
     <div className="modal-content">
+
+
+
       <div className="header  d-flex justify-content-between m-3 mx-4">
         <h5 className="modal-title= fs-3" id="exampleModalLabel">Login</h5>
         <button type="button" className="btn-close mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -25,6 +30,9 @@ export default function Login() {
    </div>
     <div className={LoginCSS.bodyLogin}>Already have an account? <span  type="button" data-bs-toggle="modal" data-bs-target="#LoginModel"  className={LoginCSS.link}> Click here</span></div>
       </div>
+
+
+
     </div>
   </div>
 </div>
